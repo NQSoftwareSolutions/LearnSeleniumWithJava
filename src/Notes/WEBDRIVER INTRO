@@ -1,0 +1,24 @@
+Todo Selenium web driver
+selenium web driver is an suit of APIs which help with browser automation.
+we can run selenium web driver tests using CMD & CI(Continues Integration) tool like Jenkins.
+Selenium provides the ability to run tests on remote machines using RemoteWebdriver class.
+Todo Maven
+Maven is an build and project management tool & dependency management.
+Todo Junit
+Junit is an java testing framework
+Todo TestNG
+TestNG is a java based testing framework.
+TestNG is good replacement of Junit testing framework.
+Todo Apache Ant
+Apache ant is a popular built tool for java developers but do not support project & dependency management.
+Todo How a test execute on browser
+All processing done in three layers.
+1: Selenium Webdriver Test
+2: Browser specific server
+3: Browser
+Test ->(HTTP Request) Server ->(JSON webdriver commands) Browser
+Test <-(HTTP Response) Server <-(JSON webdriver response) Browser
+
+
+
+

@@ -1,0 +1,5 @@
+Todo Clear()
+Clear will clear the field.
+Clear only affects on TextBox, Text area.
+Todo Submit()
+This method only works on form.

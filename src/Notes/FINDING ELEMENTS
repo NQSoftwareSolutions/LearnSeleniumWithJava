@@ -1,0 +1,33 @@
+Todo findElement(By.locator(Value))
+Find element return a instance of web element.
+If web element not available with provided search criteria then it will return
+NoSuchElementFound exception.
+If findElement find multiple elements with searched criteria then it will return first element
+which fulfill that criteria.
+Todo findElements(By.locator(Value))
+Find elements return a instances of web elements.
+If web element not available with provided search criteria then it will return
+empty list.
+Todo Locator in selenium web driver
+ID
+Class
+Name
+Tag
+Link Text
+Partial Link Text
+CSS Selector
+XPATH
+##########
+ID is best suitable strategy to find elements IF id is available & static.
+Link text and partial link text are suitable for finding links in DOM.
+partrial link text is usefull when part of link text is dynamic.
+Xpath is slow but commonly used strategy for finding elements b/c it uses variety of strategies.
+Xpath strategy works in farward as well as in backward direction but CSS Selector works only in farward direction.
+##########
+Todo ID
+Id is preferred & fastest way for searching elements in dom
+But id can be dynamic so avoid to use dynamic ID
+Todo When not use ID
+ID attribute is not available.
+Id attribute is not specified for key elements
+Id value is dynamically generated
